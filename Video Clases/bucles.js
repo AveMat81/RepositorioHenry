@@ -40,16 +40,16 @@ var suma = 0
 // console.log(result);
 // Expected output: "12345"
 
-let result = 0;
-let i = 0;
+// let result = 0;
+// let i = 0;
 
-do {
-  i = i + 1;
-  result = result + i;
-} while (i < 5);
+// do {
+//   i = i + 1;
+//   result = result + i;
+// } while (i < 5);
 
-console.log(result);
-// Expected output: 15
+// console.log(result);
+// // Expected output: 15
 
 
 // // Expresion switch
