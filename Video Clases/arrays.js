@@ -38,10 +38,10 @@
 // console.log(cumpleCondicion) //true
 
 // // SPLIT
-// var palabra = 'Henri';
-// var palabraSeparada = palabra.split('');
+var palabra = "Henry";
+var palabraSeparada = palabra.split('');
 
-// console.log(palabraSeparada);
+console.log(palabraSeparada);
 
 // // JOIN
 // var palabraArreglada = palabraSeparada.join('');
@@ -50,6 +50,15 @@
 
 // // FOREACH
 // var numeros = [ 1, 2, 3, 4 ];
+
+// numeros.forEach( (num) => { 
+//    console.log(suma = suma + num);
+// } )
+
+// for (let i = 0; i < numeros.length; i++) {
+//    console.log(numeros[i]);
+// }
+
 // var numerosII = []
 // numeros.forEach( (num) => { 
 //    numerosII.push(num + 10);
@@ -58,15 +67,63 @@
 // console.log(numerosII)
 // console.log(numeros)
 
-// MAP
-var numeros = [ 1, 2, 3, 4 ];
-// var masUno = numeros.map( (num) => {
-//      return num + 1 
-//     } );
+// // MAP
+// var numeros = [ 1, 2, 3, 4 ];
+// // var masUno = numeros.map( (num) => {
+// //      return num + 1 
+// //     } );
 
+// // console.log(masUno);
+// var masUno = []
+// for (var i = 0; i < numeros.length; i++){
+//     masUno.push(numeros[i] + 10)
+// }
 // console.log(masUno);
-var masUno = []
-for (var i = 0; i < numeros.length; i++){
-    masUno.push(numeros[i] + 10)
-}
-console.log(masUno);
+
+// // WHILE
+// var arr = [];
+// while (arr.length < 5) {
+//    arr.push('Camilo');
+// }
+// console.log(arr);
+
+// // FOR
+// var arr = [1, 2, 3, 4, 5];
+// for (let i = 0; i < arr.length; i++) {
+//    console.log(arr[i]);
+// }
+
+// ///////////
+// function encontrarLetraP(string){
+//     var letra = string.split("");
+
+//     for (let i = 0; i < letra.length; i++){
+//         if(letra[i] === "p"){
+//             console.log("Contiene P");
+//         }
+//     }
+// }
+// encontrarLetraP("JavaScript");
+// encontrarLetraP("Henry");
+// //////////
+
+// var numeros = [ 1, 2, 3, 4 ];
+// var suma = 0
+// numeros.forEach( (num) => { 
+   
+//   return (suma = suma + num);
+// } )
+// console.log(suma)
+
+// var resultadosTest = [10, 10, 10]
+// var suma = 0;
+// var promedio = 0;
+// var j = 0;
+// for(var i = 0; i < resultadosTest.length; i++){
+//    suma = suma + resultadosTest[i]
+//     j = j + 1;
+// }
+//    promedio = suma / j;
+//    console.log(promedio);
+//    console.log(j);
+//    console.log(suma);
