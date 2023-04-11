@@ -127,3 +127,6 @@ console.log(palabraSeparada);
 //    console.log(promedio);
 //    console.log(j);
 //    console.log(suma);
+
+
+
