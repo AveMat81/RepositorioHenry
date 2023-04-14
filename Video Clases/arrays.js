@@ -37,11 +37,11 @@
 // }) 
 // console.log(cumpleCondicion) //true
 
-// // SPLIT
-var palabra = "Henry";
-var palabraSeparada = palabra.split('');
+// // // SPLIT
+// var palabra = "Henry";
+// var palabraSeparada = palabra.split('');
 
-console.log(palabraSeparada);
+// console.log(palabraSeparada);
 
 // // JOIN
 // var palabraArreglada = palabraSeparada.join('');
@@ -129,4 +129,29 @@ console.log(palabraSeparada);
 //    console.log(suma);
 
 
-
+   // El parámetro "objetoUsuario" tiene una propiedad llamada "posts" que es un arreglo.
+   // Este arreglo contiene objetos (post).
+   // Cada post posee una propiedad llamada "likes".
+var objetoUsuario = {
+                      posts: [post = {like: 1 }, post = {like: 2 }]
+                    }
+console.log(objetoUsuario.posts.length)
+                    // for(let i=0; i<objetoUsuario.posts.length; i++){
+                    //     for(var j in post){
+                    //         console.log(post[j])
+                    //         console.log(j)
+                    //     }
+                    // }                    
+// var suma = 0
+//    for(let i=0; i<objetoUsuario.posts.length; i++){
+//       suma = suma + objetoUsuario.posts;
+//    }
+console.log(objetoUsuario.posts[0].like);
+// console.log(objetoUsuario.post.length);
+// console.log(objetoMuchosUsuarios[0].esPremium)
+// console.log(suma)
+// console.log(objetoUsuario.posts)
+// for(var i in post){
+//     console.log(post[i])
+//     console.log(i)
+// }

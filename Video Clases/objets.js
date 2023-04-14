@@ -2,19 +2,25 @@
 //     conBalon: ["Football", "Basketball", "rugby"], 
 //     sinBalon: ["Boxeo", "Surf", "Trekking"],
 // };
-
 // // console.log(deportes);
-// // console.log(deportes.conBalon);
+// console.log(deportes.conBalon);
 // // console.log(deportes.conBalon[0]);
 
-// var estudiante = { Nombre: "Matías", Edad: 41, Estudios: {esProgramdor: [true, false]} };
+// var estudiante = { 
+//                   Nombre: "Matías", 
+//                   Edad: 41, 
+//                   Estudios: {
+//                               esProgramdor: [true, false]} 
+//                   };
 
-// estudiante.nuenoObjeo = {};
-// estudiante.nuevoArray = [{auto: "", moto:["yamaha","honda"]}];
-// estudiante.nuevoArray[0].moto[3]="nueva moto";
-// console.log(estudiante.nuevoArray[0].moto[3]);
-// // console.log(estudiante.Estudios.esProgramdor[0]);
-
+// estudiante["nuevoObjeto"] = {};
+// // estudiante.nuevoArray = [{auto: "1", moto:["yamaha","honda"]}];
+// // estudiante.nuevoArray[0].moto[3]="nueva moto";
+// // console.log(estudiante.nuevoArray[0].moto[3]);
+// // console.log(estudiante.nuevoArray[0].auto);
+// // // console.log(estudiante.Estudios.esProgramdor[0]);
+// // console.log(estudiante.nuevoArray);
+// console.log(estudiante.nuevoObjeto)
 
 // // var array = [];
 // // for(let i = 0; i < estudiante.Estudios.esProgramdor.length; i++){
@@ -75,7 +81,7 @@
 
 // var libro = { autor: 'Borges', genero: 'Policial', año: 1990 };
 // var tienePropiedad = libro.hasOwnProperty('autor');
-// console.log(tienePropiedad);//True/
+// console.log(tienePropiedad);//True
 
 // // KEYS
 // //El método Object.keys() devuelve todas las propiedades de un objeto guardadas en orden dentro de un arreglo.
@@ -99,14 +105,38 @@
 // Esta es la propiedad oceanos
 // Este es el valor 5
 
-//THIS
-var mascota = {
-    animal: 'Perro',
-    raza: 'Ovejero Alemán',
-    amistoso: true,
-    dueño: 'María López',
-    info: function(){
-       console.log('Mi perro es un  ' + this.raza)//Este this. hece referenecia a la propiedad raza del objeto en el q esta (objeto mascota)
-    },
- };
-mascota.info();
+// //THIS
+// var mascota = {
+//     animal: 'Perro',
+//     raza: 'Ovejero Alemán',
+//     amistoso: true,
+//     dueño: 'María López',
+//     info: function(){
+//        console.log('Mi perro es un  ' + this.raza)//Este this. hece referenecia a la propiedad raza del objeto en el q esta (objeto mascota)
+//     },
+//  };
+// mascota.info();
+
+ // Agrega una propiedad al "objetoProducto" con el nombre "calcularPrecioDescuento".
+   // Esta propiedad debe ser una función que multiplique el precio del producto por el porcentajeDeDescuento.
+   // El "objetoProducto" posee una propiedad "precio" y una propiedad "porcentajeDeDescuento".
+   // Luego debes restar del precio total del producto ese valor de descuento.
+   // Retornar el precio final.
+   // Ejemplo:
+   // Precio ---> 10
+   // PorcentajeDeDescuento ---> 0.2
+   // Precio final ---> 8
+   // Tu código:
+   
+   var objetoProducto = { precio: 10,
+                          porcentajeDeDescuento: 0.2,
+                        //   calcularPrecioDescuento: function(){
+                        //    return this.precio * this.porcentajeDeDescuento
+                        //   }
+   }
+   
+   objetoProducto["calcularPrecioDescuento"] = function(){
+      return this.precio * this.porcentajeDeDescuento
+   };
+var precioFinal = objetoProducto.precio - objetoProducto.calcularPrecioDescuento();
+console.log(objetoProducto.calcularPrecioDescuento());   
