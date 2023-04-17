@@ -132,10 +132,10 @@
    // El parámetro "objetoUsuario" tiene una propiedad llamada "posts" que es un arreglo.
    // Este arreglo contiene objetos (post).
    // Cada post posee una propiedad llamada "likes".
-var objetoUsuario = {
-                      posts: [post = {like: 1 }, post = {like: 2 }]
-                    }
-console.log(objetoUsuario.posts.length)
+// var objetoUsuario = {
+//                       posts: [post = {like: 1 }, post = {like: 2 }]
+//                     }
+// console.log(objetoUsuario.posts.length)
                     // for(let i=0; i<objetoUsuario.posts.length; i++){
                     //     for(var j in post){
                     //         console.log(post[j])
@@ -146,7 +146,7 @@ console.log(objetoUsuario.posts.length)
 //    for(let i=0; i<objetoUsuario.posts.length; i++){
 //       suma = suma + objetoUsuario.posts;
 //    }
-console.log(objetoUsuario.posts[0].like);
+// console.log(objetoUsuario.posts[0].like);
 // console.log(objetoUsuario.post.length);
 // console.log(objetoMuchosUsuarios[0].esPremium)
 // console.log(suma)
@@ -155,3 +155,33 @@ console.log(objetoUsuario.posts[0].like);
 //     console.log(post[i])
 //     console.log(i)
 // }
+
+
+// String.prototype.reverse = function(){
+//    var palabra = "Hola"
+//    var palabraSeparada = palabra.split('');
+//    palabraInvertida = [];
+//    for(let i=palabraSeparada.length -1; i>=0; i--){
+//     palabraInvertida.push(palabra[i])
+//     console.log(i)
+//    }
+//   console.log(palabraInvertida)
+   // palabraInvertidaFinal = palabraInvertida.join('')
+   // console.log(palabraInvertidaFinal);
+ 
+   class Persona {
+      // Crea el constructor de la clase "Persona".
+      // Debe tener las propiedades: "nombre", "apellido", "edad" y "domicilio".
+      // Debe tener un método llamado "detalle" que nos devuelva un objeto con las propiedades de la persona y
+      // sus valores.
+      constructor(nombre, apellido, edad, domicilio){
+         this.nombre = nombre
+         this.apellido = apellido
+         this.edad = edad
+         this.domicilio = domicilio
+      }
+      detalle = function (){
+         
+      }
+   }
+   Persona.detalle()
