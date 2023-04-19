@@ -128,15 +128,33 @@
    // Precio final ---> 8
    // Tu código:
    
-   var objetoProducto = { precio: 10,
-                          porcentajeDeDescuento: 0.2,
-                        //   calcularPrecioDescuento: function(){
-                        //    return this.precio * this.porcentajeDeDescuento
-                        //   }
-   }
+//    var objetoProducto = { precio: 10,
+//                           porcentajeDeDescuento: 0.2,
+//                         //   calcularPrecioDescuento: function(){
+//                         //    return this.precio * this.porcentajeDeDescuento
+//                         //   }
+//    }
    
-   objetoProducto["calcularPrecioDescuento"] = function(){
-      return this.precio * this.porcentajeDeDescuento
-   };
-var precioFinal = objetoProducto.precio - objetoProducto.calcularPrecioDescuento();
-console.log(objetoProducto.calcularPrecioDescuento());   
+//    objetoProducto["calcularPrecioDescuento"] = function(){
+//       return this.precio * this.porcentajeDeDescuento
+//    };
+// var precioFinal = objetoProducto.precio - objetoProducto.calcularPrecioDescuento();
+// console.log(objetoProducto.calcularPrecioDescuento());   
+
+var objeto = {continentes: 7, paises: 195};
+   var arrayGeneral = [];
+   
+   var j = 0
+for(let i in objeto){
+   var array = []
+   array.push(i)
+    array.push(objeto[i])
+     arrayGeneral[j]=array
+     j = j+1
+     console.log(arrayGeneral)
+   }
+   // console.log(arrayGeneral)
+
+   // array = ["a", 1]
+   // arrayB = [array]
+   // console.log(arrayB)

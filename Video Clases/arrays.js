@@ -169,19 +169,86 @@
    // palabraInvertidaFinal = palabraInvertida.join('')
    // console.log(palabraInvertidaFinal);
  
-   class Persona {
-      // Crea el constructor de la clase "Persona".
-      // Debe tener las propiedades: "nombre", "apellido", "edad" y "domicilio".
-      // Debe tener un método llamado "detalle" que nos devuelva un objeto con las propiedades de la persona y
-      // sus valores.
-      constructor(nombre, apellido, edad, domicilio){
-         this.nombre = nombre
-         this.apellido = apellido
-         this.edad = edad
-         this.domicilio = domicilio
-      }
-      detalle = function (){
+   // class Persona {
+   //    // Crea el constructor de la clase "Persona".
+   //    // Debe tener las propiedades: "nombre", "apellido", "edad" y "domicilio".
+   //    // Debe tener un método llamado "detalle" que nos devuelva un objeto con las propiedades de la persona y
+   //    // sus valores.
+   //    constructor(nombre, apellido, edad, domicilio){
+   //       this.nombre = nombre
+   //       this.apellido = apellido
+   //       this.edad = edad
+   //       this.domicilio = domicilio
+   //    }
+   //    detalle = function (){
          
-      }
-   }
-   Persona.detalle()
+   //    }
+   // }
+   // Persona.detalle()
+
+   // var arr = [["a", 1], ["b", 2]]
+   // var obeto = Object.fromEntries(arr);
+   // console.log(obeto);
+
+var str = "adsjfdsfsfjsdjfhacabcsbajda";
+var strSeparada = str.split('');
+var strOrdenanda = strSeparada.sort();
+console.log(strOrdenanda);
+
+
+
+
+// var array = []
+// var nuevoArray = []
+// var j = 0
+
+// const obj = Object.fromEntries(strOrdenanda)
+// console.log(obj)
+//   for (let i=0; i<strOrdenanda.length; i++){
+//       array.push(array[i])
+//       if(strOrdenanda[i]===strOrdenanda[i+1]){
+//          array.push(strOrdenanda[i])
+//       }
+//       nuevoArray[j] = array
+//       console.log(array)
+//       array = []
+//       j = j+1
+//       }
+// //   console.log(array)
+// //   console.log(strOrdenanda)
+// //   console.log(nuevoArray)
+// // var numeros = [ 1, 2, 3, 4 ];
+// // // var masUno = numeros.map( (num) => {
+// // //      return num + 1 
+// // //     } );
+
+// // // console.log(masUno);
+// // var masUno = []
+// // for (var i = 0; i < numeros.length; i++){
+// //     masUno.push(numeros[i] + 10)
+// // }
+// // console.log(masUno);
+
+// // el array a ordenar
+// var list = ['Delta', 'alpha', 'CHARLIE', 'bravo'];
+
+// // array temporal contiene objetos con posición y valor de ordenamiento
+// var mapped = list.map(function(el, i) {
+//   return { index: i, value: el.toLowerCase() };
+// })
+
+// // ordenando el array mapeado que contiene los valores reducidos
+// mapped.sort(function(a, b) {
+//   if (a.value > b.value) {
+//     return 1;
+//   }
+//   if (a.value < b.value) {
+//     return -1;
+//   }
+//   return 0;
+// });
+
+// // contenedor para el orden resultante
+// var result = mapped.map(function(el){
+//   return list[el.index];
+// });
