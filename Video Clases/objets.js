@@ -107,7 +107,7 @@
 
 // //THIS
 // var mascota = {
-//     animal: 'gato',
+//     animal: 'Perro',
 //     raza: 'Ovejero Alemán',
 //     amistoso: true,
 //     dueño: 'María López',
