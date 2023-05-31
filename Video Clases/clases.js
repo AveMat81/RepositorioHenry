@@ -35,6 +35,6 @@ class Auto {
 
 var miSegundoAuto = new Auto(4, "Fiat", "Blanco", 2015, 4);
 
-console.log(miSegundoAutos);
-console.log(miSegundoAutos.marca);
+console.log(miSegundoAuto);
+console.log(miSegundoAuto.marca);
 miSegundoAuto.informacion();
