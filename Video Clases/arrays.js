@@ -38,7 +38,7 @@
 // console.log(cumpleCondicion) //true
 
 // // // SPLIT
-// var palabra = "Henry";
+// var palabra = "Henry 123";
 // var palabraSeparada = palabra.split('');
 
 // console.log(palabraSeparada);
@@ -158,7 +158,7 @@
 
 
 // String.prototype.reverse = function(){
-//    var palabra = "Hola"
+//    var palabra = "hola"
 //    var palabraSeparada = palabra.split('');
 //    palabraInvertida = [];
 //    for(let i=palabraSeparada.length -1; i>=0; i--){
@@ -166,8 +166,9 @@
 //     console.log(i)
 //    }
 //   console.log(palabraInvertida)
-   // palabraInvertidaFinal = palabraInvertida.join('')
-   // console.log(palabraInvertidaFinal);
+//    palabraInvertidaFinal = palabraInvertida.join('')
+//    console.log(palabraInvertidaFinal);
+// }
  
    // class Persona {
    //    // Crea el constructor de la clase "Persona".
@@ -190,10 +191,10 @@
    // var obeto = Object.fromEntries(arr);
    // console.log(obeto);
 
-var str = "adsjfdsfsfjsdjfhacabcsbajda";
-var strSeparada = str.split('');
-var strOrdenanda = strSeparada.sort();
-console.log(strOrdenanda);
+// var str = "adsjfdsfsfjsdjfhacabcsbajda";
+// var strSeparada = str.split('');
+// var strOrdenanda = strSeparada.sort();
+// console.log(strOrdenanda);
 
 
 
@@ -252,3 +253,13 @@ console.log(strOrdenanda);
 // var result = mapped.map(function(el){
 //   return list[el.index];
 // });
+
+const number = 123456789;
+function reverseNumber(n) {
+const convertAndReverse = n. toString(). split(""). reverse(). join("");
+console.log(convertAndReverse);
+}
+reverseNumber(number);
+reverseNumber(1101)
+reverseNumber(11010111)
+// esto retorna 987654321.

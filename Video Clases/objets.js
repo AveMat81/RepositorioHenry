@@ -2,19 +2,19 @@
 //     conBalon: ["Football", "Basketball", "rugby"], 
 //     sinBalon: ["Boxeo", "Surf", "Trekking"],
 // };
-// // console.log(deportes);
+// console.log(deportes);
 // console.log(deportes.conBalon);
-// // console.log(deportes.conBalon[0]);
+// console.log(deportes.conBalon[0]);
 
-// var estudiante = { 
-//                   Nombre: "Matías", 
-//                   Edad: 41, 
-//                   Estudios: {
-//                               esProgramdor: [true, false]} 
-//                   };
+var estudiante = { 
+                  Nombre: "Matías", 
+                  Edad: 41, 
+                  Estudios: {
+                              esProgramdor: [true, false]} 
+                  };
 
-// estudiante["nuevoObjeto"] = {};
-// // estudiante.nuevoArray = [{auto: "1", moto:["yamaha","honda"]}];
+estudiante["nuevoObjeto"] = {};
+estudiante.nuevoArray = [{auto: "1", moto:["yamaha","honda"]}];
 // // estudiante.nuevoArray[0].moto[3]="nueva moto";
 // // console.log(estudiante.nuevoArray[0].moto[3]);
 // // console.log(estudiante.nuevoArray[0].auto);
@@ -141,18 +141,18 @@
 // var precioFinal = objetoProducto.precio - objetoProducto.calcularPrecioDescuento();
 // console.log(objetoProducto.calcularPrecioDescuento());   
 
-var objeto = {continentes: 7, paises: 195};
-   var arrayGeneral = [];
+// var objeto = {continentes: 7, paises: 195};
+//    var arrayGeneral = [];
    
-   var j = 0
-for(let i in objeto){
-   var array = []
-   array.push(i)
-    array.push(objeto[i])
-     arrayGeneral[j]=array
-     j = j+1
-     console.log(arrayGeneral)
-   }
+//    var j = 0
+// for(let i in objeto){
+//    var array = []
+//    array.push(i)
+//     array.push(objeto[i])
+//      arrayGeneral[j]=array
+//      j = j+1
+//      console.log(arrayGeneral)
+//    }
    // console.log(arrayGeneral)
 
    // array = ["a", 1]
